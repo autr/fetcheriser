@@ -1,0 +1,33 @@
+{
+  "name": "fetcheriser",
+  "version": "1.0.6",
+  "description": "Abstractions and Aliases for FETCH",
+  "keywords": [
+    "javascript",
+    "fetch",
+    "rest",
+    "crud"
+  ],
+  "author": "Gilbert Sinnott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autr/fetcheriser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autr/fetcheriser.git"
+  },
+  "homepage": "https://github.com/autr/fetcheriser",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSpicyMeatball/utils.git"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ]
+}

@@ -1,0 +1,6 @@
+.DS_store
+coverage
+dist/lib
+node_modules
+package-lock.json
+pnpm-lock.yaml
