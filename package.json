@@ -1,6 +1,6 @@
 {
   "name": "fetcheriser",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Abstractions and Aliases for FETCH",
   "keywords": [
     "javascript",
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/autr/fetcheriser",
   "scripts": {
-    "compile": "npm run lint && rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    "start": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
+    "publish": "cd dist && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^26.0.19",
